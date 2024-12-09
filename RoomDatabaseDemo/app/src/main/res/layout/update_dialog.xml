@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Input for Updated Name -->
+    <EditText
+        android:id="@+id/editTextUpdateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter New Name"
+        android:inputType="textPersonName"
+        android:padding="8dp" />
+
+    <!-- Input for Updated Age -->
+    <EditText
+        android:id="@+id/editTextUpdateAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter New Age"
+        android:inputType="number"
+        android:padding="8dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Input for Updated Task -->
+    <EditText
+        android:id="@+id/editTextUpdateTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter New Task"
+        android:inputType="number"
+        android:padding="8dp"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
